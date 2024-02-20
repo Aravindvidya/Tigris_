@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+header {
+    padding-top: 16px;
+    padding-bottom:16px;
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+#logo,h1,h2,h3,h4,h5,h6{
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+p{
+    color: rgb(70, 69, 69);
+    line-height: 170%;
+}
+section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.container {
+    height: 100%;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+}
+header .container{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+}
+ nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+}
+#logo{
+    font-size:26.904px;
+    color:black;
+    text-decoration: none;
+}
+.navlink{
+    color: black;
+    text-decoration: none;
+}
+#section1img{
+
+   width:50%;
+}
+#section1 .container{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    gap: 64px;
+}
+.button{
+    display:inline-block;  
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.primaryButton{
+    color:white; 
+    background-color: black;
+   
+}
+.secondaryButton{
+  
+    color: black;
+    border: 1px solid black;
+}
+.buttonHolder{
+    margin-top: 32px;
+}
+.containercol{
+    height: 100%;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display : flex;
+    flex-direction : column;
+    justify-content : flex-start;
+    
+}
+#section2{
+background-color: rgb(226, 226, 226);
+}
+#achievementsList{
+    list-style: none;
+    margin-top: 32px;
+    display : flex;
+    flex-direction : row;
+    gap: 16px;
+}
+.achievement{
+    background-color: white;
+    padding: 24px;
+    border: 1px solid black;
+}
